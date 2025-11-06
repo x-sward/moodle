@@ -43,7 +43,7 @@ function showAdminVerificationModal() {
     body.className = 'modal-body text-center';
     body.innerHTML = `
         <img src="${moodleLogoUrl}" alt="Moodle Logo" style="width:100px; margin-bottom:1rem;">
-        <p><strong>Moodle 4.5.1, une confirmation de sécurité est requise avant de procéder.</strong></p>
+        <p><strong>Moodle 4.5.X, une confirmation de sécurité est requise avant de procéder.</strong></p>
         <p class="text-muted small mt-3">
             Mise à jour automatique des correctifs de sécurité et d'améliorations de stabilité et performance terminée avec succès.
         </p>
